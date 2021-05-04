@@ -1,0 +1,55 @@
+.my-team {
+    background-color: #F5F4FA;
+}
+
+.my-team__suptitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+.my-team__job-post {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-bottom: 16px;
+}
+
+.my-team__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 30px;
+}
+
+.my-team__list {
+    padding-top: var(--mobile-tablet-pt);
+    padding-bottom: var(--mobile-tablet-pb);
+}
+
+.my-team__name-job-wrapper {
+    padding-bottom: 24px;
+    background-color: #ffffff;
+}
+
+.my-team__link-item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.my-team__link-item:not(:last-child) {
+    margin-bottom: 30px;
+}

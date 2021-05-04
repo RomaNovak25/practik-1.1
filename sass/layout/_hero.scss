@@ -1,0 +1,32 @@
+.hero__title {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.hero {
+    background-image: 
+    linear-gradient(rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+    url(../images/hero/header-mob-img.jpg);
+    padding-top: 118px;
+    padding-bottom: 198px;
+    background-size: cover;
+    max-width: 480px;
+    margin: 0 auto;
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (-o-min-device-pixel-ratio: 2/1),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: url(../images/hero/header-mob-img@2х.jpg);
+        }
+    }
+}

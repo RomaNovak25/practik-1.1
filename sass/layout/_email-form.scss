@@ -1,0 +1,40 @@
+.email-form__mailing-icon {
+    width: 100%;
+    max-width: 450px;
+    height: 50px;
+    padding: 15px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    align-items: center;
+    background-color: #2F303A;
+    color: #ffffff;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.email-form__btn {
+    width: 200px;
+    height: 50px;
+    background-color: var(--acent-color);
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.email-form__mailing-section {
+    padding-bottom: var(--mobile-tablet-pb);
+}
+
+.email-form__mailing-label {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__email-form__icon-telegram {
+    margin-left: 9px;
+}

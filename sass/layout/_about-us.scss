@@ -1,0 +1,38 @@
+.about-us__advantages-list-count {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.about-us__advantages-list-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.about-us__link:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.about-us__list {
+    padding-top: var(--mobile-tablet-pt);
+    padding-bottom: var(--mobile-tablet-pb);
+}
+
+.about-us__picture-item {
+    width: 100%;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+
+    &:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}

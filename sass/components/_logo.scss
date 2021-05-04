@@ -1,0 +1,19 @@
+.logo {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.logo__dark-theme {
+    color: #FFFFFF;
+}
+
+.logo__white-theme {
+    color: #212121;
+}

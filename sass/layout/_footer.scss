@@ -1,0 +1,50 @@
+.footer {
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: #2F303A;
+}
+
+.address__list-contact {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+
+    &:hover,
+    &:focus {
+        color: #2196F3;
+    }
+}
+
+.address__list-mail-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 8px;
+}
+
+.address__list-tel-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address__list-item {
+    text-align: center;
+}
+
+.email-form__icon-telegram {
+    fill: #ffffff;
+    margin-left: 10px;
+    
+}
+
